@@ -17,7 +17,7 @@ Because of this you need to go to [assignment](/assignment) folder and install t
 
 ***All the following commands need to be run in the [assignment](/assignment) folder.***
 
-Since for the testing and deployment of the contracts we use the **Gorli** testnet you need to provide a private key corresponding to valid address on the *Gorli* testnet. The address provided also needs to have some ether in order to be able to run the tests and deployment script. I recommend to have around **5 ether** 
+Since for the testing and deployment of the contracts we use the **Gorli** testnet you need to provide a private key corresponding to a valid address on the *Gorli* testnet. The address provided also needs to have some ether in order to be able to run the tests and deployment script. I recommend to have around **5 ether** 
 
 In order to provide the private key you need to access the file `truffle-config.js`
 
@@ -42,7 +42,7 @@ And replace the string **PRIVATE_KEY** with your actual private key
 
 Since neither ether.js or web3.js provide accessible tools to catch messages trigger by a `require()` statement from solidity, we split the tests in two different files.
 
-In order to run tests that just analise the `require()` statements from the contract we usea a *Local* enviroment provided by truffle. To run the test just type the command:
+In order to run tests that just test the `require()` statements of the smart contract we use a *Local* environment provided by truffle. To run the tests just type the command:
 
 ```truffle test ./test/local/local_test.js```
 
