@@ -15,7 +15,7 @@ The assigmente was completed using `npm` package manager and the `truffle` frame
 
 Because of this you need to go to [assignment](https://github.com/StoneVerve/lido-dao/tree/master/assignment) folder and install truffle using the command `npm install truffle`
 
-We deploy the contract to the *Gorli* testnet and we also some of the tests using the *Gorli* testnet, because of this you need to provide a private key corresponding to valid address on the *Gorli* testnet. The address also needs to have some ether in order to deploy the contract and to run tests. I recommend to have at least ** 5 ether**
+Since for the testing and deployment of the contracts we use the **Gorli** testnet you need to provide a private key corresponding to valid address on the *Gorli* testnet. The address provided also needs to have some ether in order to be able to run the tests and deployment script. I recommend to have around **5 ether** 
 
 In order to provide the private key you need to access the file `truffle-config.js`
 
@@ -34,7 +34,7 @@ module.exports = {
    * defaults web3 uses to send transactions. If you don't specify one truffle
 ```
 
-And place the private key in the field **PRIVATE_KEY**
+And replace the string **PRIVATE_KEY** with your actual private key
 
 ## Run tests
 
