@@ -9,9 +9,9 @@ Background: Lido is a protocol that lets users stake their ETH in the Ethereum 2
  
 To complete the assignment, fork this repo, make changes there, and then add Github user sforman2000 to the repo when you're finished. Your submission will be judged based on functionality, documentation, and test coverage. We recommend spending no more than three hours on this assignment.
 
-# Programming assignment (Solution)
+## Programming assignment (Solution)
 
-The assigmente was completed using the *npm* for package managment and the *truffle* framework for the development, testing and deployment. All the files are located under the `assigment` folder.
+The assigmente was completed using `npm` package manager and the `truffle` framework for the development, testing and deployment. All the files are located under the [assigment](https://github.com/StoneVerve/lido-dao/tree/master/assignment) folder.
 
 Because of this you need to go to `assigment` folder install truffle using the command `npm install truffle`
 
