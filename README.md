@@ -13,9 +13,9 @@ To complete the assignment, fork this repo, make changes there, and then add Git
 
 The assigmente was completed using `npm` package manager and the `truffle` framework for the development, testing and deployment. All the files are located under the [assignment](/assignment) folder.
 
-Because of this you need to go to [assignment](https://github.com/StoneVerve/lido-dao/tree/master/assignment) folder and install truffle using the command `npm install truffle`
+Because of this you need to go to [assignment](/assignment) folder and install truffle using the command `npm install truffle`
 
-***All the following commands need to be run inside the [assignment](https://github.com/StoneVerve/lido-dao/tree/master/assignment) folder.***
+***All the following commands need to be run inside the [assignment](/assignment) folder.***
 
 Since for the testing and deployment of the contracts we use the **Gorli** testnet you need to provide a private key corresponding to valid address on the *Gorli* testnet. The address provided also needs to have some ether in order to be able to run the tests and deployment script. I recommend to have around **5 ether** 
 
