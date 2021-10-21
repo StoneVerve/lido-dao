@@ -9,7 +9,45 @@ Background: Lido is a protocol that lets users stake their ETH in the Ethereum 2
  
 To complete the assignment, fork this repo, make changes there, and then add Github user sforman2000 to the repo when you're finished. Your submission will be judged based on functionality, documentation, and test coverage. We recommend spending no more than three hours on this assignment.
 
+# Programming assignment (Solution)
+
+The assigmente was completed using the *npm* for package managment and the *truffle* framework for the development, testing and deployment. All the files are located under the `assigment` folder.
+
+Because of this you need to go to `assigment` folder install truffle using the command `npm install truffle`
+
+We deploy the contract to the *Gorli* testnet and we also some of the tests using the *Gorli* testnet, because of this you need to provide a private key corresponding to valid address on the *Gorli* testnet. The address also needs to have some ether in order to deploy the contract and to run tests. I recommend to have at least ** 5 ether**
+
+In order to provide the private key you need to access the file `truffle-config.js`
+
+```
+
+ const HDWalletProvider = require('@truffle/hdwallet-provider');
+ 
+  /*
+   * Private key of the etherum address that will be use to deploy and test the smartcontract
+   */
+ const private_key = "PRIVATE_KEY";
+
+module.exports = {
+  /**
+   * Networks define how you connect to your ethereum client and let you set the
+   * defaults web3 uses to send transactions. If you don't specify one truffle
+```
+
+And place the private key in the field **PRIVATE_KEY**
+
+## Run tests
+
+For this assigment we have two different tests
+In order to run tests you need to move to the `assigment` folder and type the command 
+
+`truffle test
+
+
+
 <hr/>
+
+
 
 # Lido Ethereum Liquid Staking Protocol
 
