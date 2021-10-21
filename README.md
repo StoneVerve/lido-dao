@@ -11,7 +11,7 @@ To complete the assignment, fork this repo, make changes there, and then add Git
 
 ## Programming assignment (Solution)
 
-The assigmente was completed using `npm` package manager and the `truffle` framework for the development, testing and deployment. All the files are located under the [assignment](https://github.com/StoneVerve/lido-dao/tree/master/assignment) folder.
+The assigmente was completed using `npm` package manager and the `truffle` framework for the development, testing and deployment. All the files are located under the [assignment](/assignment) folder.
 
 Because of this you need to go to [assignment](https://github.com/StoneVerve/lido-dao/tree/master/assignment) folder and install truffle using the command `npm install truffle`
 
