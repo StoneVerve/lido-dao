@@ -15,6 +15,8 @@ The assigmente was completed using `npm` package manager and the `truffle` frame
 
 Because of this you need to go to [assignment](https://github.com/StoneVerve/lido-dao/tree/master/assignment) folder and install truffle using the command `npm install truffle`
 
+***All the following commands need to be run inside the [assignment](https://github.com/StoneVerve/lido-dao/tree/master/assignment) folder.***
+
 Since for the testing and deployment of the contracts we use the **Gorli** testnet you need to provide a private key corresponding to valid address on the *Gorli* testnet. The address provided also needs to have some ether in order to be able to run the tests and deployment script. I recommend to have around **5 ether** 
 
 In order to provide the private key you need to access the file `truffle-config.js`
@@ -36,13 +38,20 @@ module.exports = {
 
 And replace the string **PRIVATE_KEY** with your actual private key
 
-## Run tests
+### Run tests
 
-For this assigment we have two different tests
-In order to run tests you need to move to the `assigment` folder and type the command 
+Since neither ether.js or web3.js provide accessible tools to catch messages trigger by a `require()` statement from solidity the tests are splited in two files.
 
-`truffle test
+In order to run tests that just analise the `require()` statements from the contract we usea a *Local* enviroment provided by truffle. To run the test just type the command:
 
+```truffle test ./test/local/local_test.js```
+
+In order to run the rest of the tests we use the **Gorli** testnet. To run the test just type the command:
+
+```truffle test ./test/test.js --network gorli```
+
+
+### Deployment
 
 
 <hr/>
