@@ -40,7 +40,7 @@ And replace the string **PRIVATE_KEY** with your actual private key
 
 ### Run tests
 
-Since neither ether.js or web3.js provide accessible tools to catch messages trigger by a `require()` statement from solidity the tests are splited in two files.
+Since neither ether.js or web3.js provide accessible tools to catch messages trigger by a `require()` statement from solidity, we split the tests in two different files.
 
 In order to run tests that just analise the `require()` statements from the contract we usea a *Local* enviroment provided by truffle. To run the test just type the command:
 
@@ -53,6 +53,9 @@ In order to run the rest of the tests we use the **Gorli** testnet. To run the t
 
 ### Deployment
 
+In order to deploy the smart contract just run the command:
+
+```truffle migrate --network gorli```
 
 <hr/>
 
